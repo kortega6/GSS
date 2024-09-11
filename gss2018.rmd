@@ -129,7 +129,7 @@ The numerical data shows that more educated people voted in 2012.
 t.test(EDUC~VOTE12,data=GSSdata)
 ```
 
-We reject the null because the P-value is lower than 0.05. This would mean that there is a relationship between how many years of education someone completed and whether or not they voted in 2012.
+We reject the null because the P-value is lower than 0.05. This would mean that there is a relationship between how many years of education someone completed and whether or not they voted in 2012. You are more likely to have voted with higher years of education.
 
 #  Question 3
 
