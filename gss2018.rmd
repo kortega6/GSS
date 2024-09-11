@@ -78,7 +78,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-We reject the null because the P-Value is lower than 0.05.
+We reject the null because the P-Value is lower than 0.05. Therefore, statistically speaking you are more likely to be in favor of capitol punishment if you are a gun owner.
 
 #  Question 2
 
@@ -90,6 +90,11 @@ Is there a difference in years of education (EDUC) between the those who did or 
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+Question: Is there a difference in years of education bewteen those who voted and those who didn't vote in 2012?
+
+$H_0$: There is no relation between years of education and whether or not they voted in 2012. 
+$H_A$: There is a relation between years of education and whether or not they voted in 2012. 
+
 ##Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
@@ -100,9 +105,19 @@ Is there a difference in years of education (EDUC) between the those who did or 
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(EDUC~VOTE12,data=GSSdata)
+```
+
+People who voted in 2012 tended to have more education than those who didn't.
+
 #### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(EDUC~VOTE12,data=GSSdata)
+```
 
 ### Inferential Results
 
