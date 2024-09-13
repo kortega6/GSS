@@ -79,7 +79,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-We reject the null because the P-Value is lower than 0.05. Therefore, statistically speaking you are more likely to be in favor of capitol punishment if you are a gun owner.
+We reject the null because the P-Value is lower than 0.05. The fisher exact test shows the odds of 2.7 would round up to 2.3 due to the P-Value being lower than 0.05.  Therefore, statistically speaking you are more likely to be in favor of capitol punishment if you are a gun owner.
 
 #  Question 2
 
