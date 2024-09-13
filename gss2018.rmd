@@ -186,6 +186,10 @@ summary.aov(model1)
 
 We reject the null because the P-value (2.5e-07) is much lower than 0.05. This would mean that there is a relationship between higher levels of education and how well a person if likely to preform during the wordsum test. Therefore, you are likely to score better on the wordsum test if you have higher levels of education.
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
 
 # Discussion and Conclusion
 
