@@ -189,10 +189,10 @@ We reject the null because the P-value (2.5e-07) is much lower than 0.05. This w
 ```{r}
 plot(TukeyHSD(model1))
 ```
-
+The test shows that you are more likely to score higher, if you have higher levels of education.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-For all thre of the questions there was a relationship to be found between the factors. We rejected the null hypothesis for all three scenarios. Each time finding the P-Value of the results to be lower than 0.05.  Statistically speaking you are more likely to be in favor of capitol punishment if you are a gun owner, you are more likely to have voted with higher years of education, and you are likely to score better on the wordsum test if you have higher levels of education.
+For all three of the questions there was a relationship to be found between the factors. We rejected the null hypothesis for all three scenarios. Each time finding the P-Value of the results to be lower than 0.05.  Statistically speaking you are more likely to be in favor of capitol punishment if you are a gun owner, you are more likely to have voted with higher years of education, and you are likely to score better on the wordsum test if you have higher levels of education.
